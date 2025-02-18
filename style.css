@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+}
+.grey_link{
+    text-decoration: none;
+    color: grey;
+
+}
+
+/* Header */
+/* .scrolled {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+} */
+.scrolled {
+  transition: top 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
+.container_header{
+    width: 100%;
+    height: 83px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_continer{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.logo{
+    display: flex;
+    border: 2px solid black;
+}
+
+
+
+
+.logo_btn{
+    width: 2rem;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.logo_btn > i{
+    width: 1rem;
+    color: black;
+}
+
+
+/* Links */
+.links{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    gap: 3rem;
+}
+
+.links > a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.button_register{
+    display: flex;
+    padding: 1rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero_container_image > img{
+    width: 100%;
+}
+
+.break_line{
+    width: 25px;
+    margin: auto;
+    border-top: 3px solid black ;
+    border-radius: 2px;
+}
+
+
+/* Achievements  */
+.achievements_container{
+    margin-top: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_heading{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.achievements_slide{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 5rem;
+    height: 340px;
+    width: 70%;
+    background-color: white;
+    border: 2px solid rgb(46, 46, 46);
+}
+.achievements_slide > img{
+    width: 50%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 3rem;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.date > p{
+    color: black;
+}
+
+.content_details{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 1rem;
+}
+.yellow_part{
+    width: 100%;
+    height: 380px;
+    background-color: #FCCD02;
+}
+
+/* Join Us Section  */
+.join_us_container{
+    text-align: center;
+    margin-top: 10rem;
+}
+.email_contain{
+    margin-top: 2.5rem;
+    background-color: black;
+    padding: 3rem 5rem;
+}
+.email_text{
+    padding: 1.5rem;
+    text-align: left;
+    background-color: white;
+}
+.email_text > h1{
+    width: 30%;
+}
+.email_text > p{
+    margin: 1.5rem 0;
+}
+
+.input_field{
+    display: flex;
+}
+
+.input{
+    padding: 0.7rem 3.5rem;
+    border: 3px solid black;
+}
+
+.input_field > button{
+    color: white;
+    width: 3rem;
+    background-color: black;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+
+/* latest Event Container */
+.latest_event_container{
+    position: relative;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.card_container{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    gap: 6.5rem;
+    width: 80%;
+    left: 0;
+    right: 0;
+    top: 8rem;
+}
+.card{
+    border: 2px solid black;
+    background: white;
+    color: black;
+    text-align: left;
+}
+
+.card_text{
+    margin: 1.5rem 1rem;
+}
+.card_text > p{
+    margin: 2rem 0rem;
+}
+.btn_submit{
+    display: flex;
+    margin-right: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.black_part{
+    background-color: black;
+    height: 380px;
+    margin-top: 10rem;
+}
+
+
+
+
+
+/* About Us Section */
+.about_us_container{
+    margin-top: 10rem;  
+}
+
+
+.about_contain{
+    border: 2px solid black;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.about_details{
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+
+.about_text > h2{
+    margin-bottom: 3rem;
+}
+
+.about_text > p{
+    margin-top: 2rem;
+}
+
+.btn_about{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+/* Sponsers Container */
+.sponsers_container{
+    text-align: center;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sponsers_contain{
+        background: black;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsers_logos{
+    background: white;
+    width: 70%;
+    display: flex;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer  */
+
+.footer_container{
+    display: flex;
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+    gap: 15rem;
+    justify-content: center;
+}
+
+.email_media, .logo_contact, .other_area, .explore_area{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.email_media{
+    justify-content: space-between;
+}
+.email_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.explore_area > a{
+    color: black;
+}
+.other_area > a{
+    color: black;
+}
+
+/* Social Footer  */
+.logo_contact{
+    justify-content: space-between;
+
+}
+
+.email_footer > input{
+    padding: 0.2rem 0;
+}
+
+.social_icon_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icon_container{
+    display: flex;
+    gap: 1rem;
+}
+.icon_container > a{
+    color: black;
+    font-size: 1.5rem;
+}
