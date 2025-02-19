@@ -11,7 +11,8 @@
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  background:#161623;
+  /* background:white; */
+   background-color: rgb(237, 237, 237);
   position:relative;
   min-height:100vh;
   /* overflow:hidden; */
@@ -47,7 +48,8 @@
     
     .card__content{
       text-align:left;
-      color:#fff;
+      background-color: white;
+      color: black;
       padding:2rem 2.5em;
       h2{
         font-weight:700;
@@ -65,13 +67,13 @@
         span{
           margin-right:10px;
         }
-        a{
+        /* a{
           text-decoration:none;
           color:#fff;
           &:hover{
             text-decoration:underline;
           }
-        }
+        } */
 
       }
       p+p{
