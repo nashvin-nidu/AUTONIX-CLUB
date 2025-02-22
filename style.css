@@ -23,8 +23,21 @@ a{
   transition: top 0.3s ease-in-out;
   background-color: rgba(255, 255, 255, 0.45);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-
   backdrop-filter: blur(15px);
+  .links > a{
+    color: black;
+  }
+
+  .logo {
+    border: 2px solid black;
+  }
+
+  .logo_btn{
+    border: 2px solid black;
+  }
+   .logo_btn > i{
+    color: black;
+  }
 }
 .container_header{
     width: 100%;
@@ -43,10 +56,8 @@ a{
 
 .logo{
     display: flex;
-    border: 2px solid black;
+    border: 2px solid white;
 }
-
-
 
 
 .logo_btn{
@@ -55,12 +66,12 @@ a{
 
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 .logo_btn > i{
     width: 1rem;
-    color: black;
+    color: white;
 }
 
 
@@ -76,7 +87,7 @@ a{
     text-decoration: none;
     font-size: 1.3rem;
     font-family: sans-serif;
-    color: black;
+    color: white;
     font-weight: 500;
 }
 
@@ -118,16 +129,14 @@ a{
 }
 .achievements_slide{
     display: flex;
-    justify-content: flex-end;
     position: absolute;
     top: 5rem;
-    height: 340px;
-    width: 70%;
+    /* height: 340px; */
     background-color: white;
     border: 2px solid rgb(46, 46, 46);
 }
 .achievements_slide > img{
-    width: 50%;
+    width: 100%;
 }
 
 .details{
@@ -218,6 +227,11 @@ a{
     background: white;
     color: black;
     text-align: left;
+}
+
+.card > img{
+    height: 15rem;
+    width: 100%;
 }
 
 .card_text{
@@ -313,7 +327,7 @@ a{
     display: flex;
     margin-top: 10rem;
     padding-bottom: 5rem;
-    gap: 15rem;
+    gap: 12rem;
     justify-content: center;
 }
 
@@ -361,4 +375,66 @@ a{
 .icon_container > a{
     color: black;
     font-size: 1.5rem;
+}
+
+
+
+
+
+/* 2XL */
+@media (max-width: 1536px) {
+
+}
+
+/* xl */
+@media (max-width: 1380px){
+
+    
+.achievements_slide{
+    flex-direction: column;
+}
+.card_container {
+    flex-direction: column;
+}
+
+.about_contain > img{
+    display: none;
+}
+
+.yellow_part{
+    height: 48vw;
+}
+.black_part{
+    height: 80vw;
+}
+
+.sponsers_logos{
+    width: 90%;
+}
+
+
+.footer_container{
+    gap: 7rem;
+}
+}
+
+
+/* lg */
+/* @media (max-width: 1024px){
+
+} */
+
+/* md */
+@media (max-width: 768px){
+
+}
+
+/* sm  */
+@media (max-width: 640px){
+
+}
+
+/* xs */
+@media (max-width: 475px){
+
 }
