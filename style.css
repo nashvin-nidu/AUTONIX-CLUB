@@ -481,11 +481,17 @@ a{
     .black_part{
     height: 175vw;
     }
+    .email_text >h1{
+        width: 100%;
+    }
     .sponsers_logos{
         width: 100%;
     }
+    .sponsers_contain{
+        padding: 1rem;
+    }
     .sponsers_logos > img{
-        width: 5rem;
+        width: 5.5rem;
     }
 
     .footer_container{
