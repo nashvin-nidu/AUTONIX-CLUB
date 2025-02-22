@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     font-family: sans-serif;
@@ -405,7 +406,7 @@ a{
     height: 48vw;
 }
 .black_part{
-    height: 80vw;
+    height: 90vw;
 }
 
 .sponsers_logos{
@@ -415,26 +416,160 @@ a{
 
 .footer_container{
     gap: 7rem;
+    .logo_contact{
+            width: 70%;
+        }
 }
 }
 
 
 /* lg */
-/* @media (max-width: 1024px){
+@media (max-width: 1024px){
+    .links > a{
+        display: none;
+    }
 
-} */
+    .yellow_part{
+    height: 70vw;
+    }
+    .black_part{
+    height: 118vw;
+    }
+    .sponsers_logos{
+        width: 100%;
+    }
+    .sponsers_logos > img{
+        width: 7rem;
+    }
+
+    .footer_container{
+        gap: 1rem;
+        .logo_contact{
+            width: 70%;
+        }
+    }
+
+
+    
+}
 
 /* md */
 @media (max-width: 768px){
+    .yellow_part{
+    height: 80vw;
+    }
+    .black_part{
+    height: 145vw;
+    }
+    .sponsers_logos{
+        width: 100%;
+    }
+    .sponsers_logos > img{
+        width: 7rem;
+    }
 
+    .footer_container{
+        gap: 1rem;
+    }
 }
 
 /* sm  */
 @media (max-width: 640px){
+    .yellow_part{
+    height: 110vw;
+    }
+    .black_part{
+    height: 175vw;
+    }
+    .sponsers_logos{
+        width: 100%;
+    }
+    .sponsers_logos > img{
+        width: 5rem;
+    }
 
+    .footer_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        .logo_contact{
+            width: 70%;
+            margin: auto;
+        }
+        .email_footer > input{
+            border: 2px solid rgb(143, 143, 143);
+            width: 12rem;
+            margin: auto;
+        }
+        .icon_container{
+            justify-content: center;
+        }
+    }
 }
 
 /* xs */
 @media (max-width: 475px){
 
+    .container_header{
+        gap: 1rem;
+    }
+    
+    .logo >img{
+        width: 10rem;
+    }
+ .links > a{
+        display: none;
+    }
+    .button_register{
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .achievements_slide{
+        .img_achevement_contain > img{
+            width: 22rem;
+        }
+
+        .content_details{
+            width: 250px;
+        }
+    }
+
+    .yellow_part{
+    height: 150vw;
+    }
+    .email_contain{
+        padding: 3rem 1rem;
+    }
+    .black_part{
+    height: 290vw;
+    }
+
+    .about_contain{
+        width: 90%;
+    }
+    .sponsers_logos{
+        width: 100%;
+    }
+    .sponsers_logos > img{
+        width: 3rem;
+    }
+
+    .footer_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        .logo_contact{
+            width: 70%;
+            margin: auto;
+        }
+        .email_footer > input{
+            border: 2px solid rgb(143, 143, 143);
+            width: 12rem;
+            margin: auto;
+        }
+        .icon_container{
+            justify-content: center;
+        }
+    }
 }
