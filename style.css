@@ -455,6 +455,12 @@ a{
 
 /* md */
 @media (max-width: 768px){
+    .achievements_container{
+        margin-top: 5rem;
+    }
+    .join_us_container{
+        margin-top: 5rem;
+    }
     .yellow_part{
     height: 80vw;
     }
